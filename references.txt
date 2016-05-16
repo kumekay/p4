@@ -4,3 +4,15 @@ https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf
 https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
 https://cran.r-project.org/web/packages/gridExtra/gridExtra.pdf
 https://stat.ethz.ch/R-manual/R-devel/library/base/html/factor.html
+https://stat.ethz.ch/R-manual/R-devel/library/base/html/getwd.html
+http://docs.ggplot2.org/current/geom_jitter.html
+http://docs.ggplot2.org/current/index.html
+http://wineserver.ucdavis.edu/industry/enology/methods_and_techniques/reagents/citric_acid.html
+https://en.wikipedia.org/wiki/Acids_in_wine
+https://stat.ethz.ch/R-manual/R-devel/library/base/html/paste.html
+https://en.wikipedia.org/wiki/PH
+http://www.dummies.com/how-to/content/how-to-calculate-data-correlations-in-r.html
+http://stackoverflow.com/questions/3571909/calculate-correlation-cor-for-only-a-subset-of-columns
+http://www.statmethods.net/management/operators.html
+http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
+https://s3.amazonaws.com/udacity-hosted-downloads/ud651/wineQualityInfo.txt
