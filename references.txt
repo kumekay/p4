@@ -16,3 +16,4 @@ http://stackoverflow.com/questions/3571909/calculate-correlation-cor-for-only-a-
 http://www.statmethods.net/management/operators.html
 http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
 https://s3.amazonaws.com/udacity-hosted-downloads/ud651/wineQualityInfo.txt
+http://docs.ggplot2.org/current/scale_brewer.html

@@ -301,18 +301,29 @@ boxplotquality <- function(parameter) {
 grid.arrange(
   boxplotquality("alcohol"),
   boxplotquality("total.sulfur.dioxide"),
+  ncol = 2
+)
+grid.arrange(
   boxplotquality("free.sulfur.dioxide"),
   boxplotquality("sulphates"),
+  ncol = 2
+)
+grid.arrange(
   boxplotquality("chlorides"),
   boxplotquality("volatile.acidity"),
+  ncol = 2
+)
+grid.arrange(
   boxplotquality("residual.sugar"),
   boxplotquality("density"),
+  ncol = 2
+)
+grid.arrange(
   boxplotquality("log10.fixed.acidity"),
   boxplotquality("citric.acid"),
   ncol = 2
 )
 
-  
   
 ```
 
@@ -344,9 +355,10 @@ biscatter <- function(x, y) {
                y = wine[[y]],
                xlab = x,
                ylab = y,
-               color = quality,
+               color = factorized.quality,
                data = wine) + 
-    scale_colour_gradientn(colours=rainbow(6))) 
+    scale_colour_brewer(palette = "Spectral", direction = -1) +
+    theme_dark())
 }
 
 biscatter("volatile.acidity","citric.acid")
@@ -378,9 +390,10 @@ biscattergb <- function(x, y) {
                y = gbwine[[y]],
                xlab = x,
                ylab = y,
-               color = quality,
+               color = factorized.quality,
                data = gbwine) + 
-    scale_colour_gradientn(colours=rainbow(3))) 
+    scale_colour_brewer(palette = "Spectral", direction = -1) +
+    theme_dark())
 }
 
 biscattergb("volatile.acidity","citric.acid")
